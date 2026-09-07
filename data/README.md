@@ -1,1 +1,1 @@
-
+This project targets EGFR (Epidermal Growth Factor Receptor), a receptor tyrosine kinase frequently mutated or overexpressed in non-small-cell lung cancer and other cancers. EGFR is a well-established drug target with several approved inhibitors (e.g. gefitinib, erlotinib), and has extensive publicly available structural and binding-affinity data, making it a strong candidate for building and evaluating a synthesizability-aware structure-based drug design pipeline.
