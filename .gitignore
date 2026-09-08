@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ===== Project-specific: data & models =====
+# Raw and processed data (large files, regenerable from source)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained model weights/checkpoints
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Generated outputs (molecules, results, plots)
+outputs/*
+!outputs/.gitkeep
+
+# Colab-specific
+.ipynb_checkpoints/
